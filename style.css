@@ -5,7 +5,8 @@
 }
 body{
   height:100vh;
-  background: linear-gradient(125deg,#190670,#1bdad0);
+  width: 100%;
+  background: linear-gradient(135deg,#5c29d4,#0ea3fa);
 }
 .heading {
   font-size: 66px;
@@ -18,7 +19,7 @@ body{
 }
 .container{
   width: 40%;
-  position: absolute;
+  position: relative;
   transform: translate(-50%, -50%);
   top: 40%;
   left: 50%;
@@ -101,18 +102,33 @@ body{
   color: red;
 }
 
-@media screen and (min-width: 368px) {
+@media screen and (min-width: 300px) {
    .container{
       width: 100%;
+    }
+    .heading {
+      font-size: 30px;
+    }
+}
+@media screen and (min-width: 458px){
+  
+    .heading {
+      font-size: 45px;
     }
 }
 @media screen and (min-width: 578px) {
    .container{
       width: 65%;
     }
+    .heading {
+      font-size: 50px;
+    }
 }
 @media screen and (min-width: 992px) {
    .container{
       width: 40%;
+    }
+    .heading {
+      font-size: 66px;
     }
 }
