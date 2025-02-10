@@ -5,13 +5,22 @@
 }
 body{
   height:100vh;
-  background: linear-gradient(135deg,#8052ec,#d161ff);
+  background: linear-gradient(125deg,#190670,#1bdad0);
+}
+.heading {
+  font-size: 66px;
+  color: #f0ff18;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Oleo Script", serif;
+  text-transform:uppercase;
 }
 .container{
   width: 40%;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 40%;
   left: 50%;
   padding: 30px 40px;
 }
